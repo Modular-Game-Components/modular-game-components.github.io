@@ -1,6 +1,6 @@
-# TailwindCSS Github Pages Starter
+# Modular Game Components Website
 
-A tailwindcss starter kit for Github Pages. No other dependencies besides `npm`.
+The website for the Modular Game Components organization. Used the starter template found [here](https://github.com/aviflombaum/tailwind-github-pages) for TailwindCSS capabilities.
 
 ## Usage
 
@@ -12,12 +12,7 @@ A tailwindcss starter kit for Github Pages. No other dependencies besides `npm`.
 
 `npm run deploy`
 
-## FAQ
-
-**Is that really it?**
-
-Yes.
-
 ## Who made this?
 
-[@aviflombaum](https://twitter.com/aviflombaum)
+Starter template: [@aviflombaum](https://twitter.com/aviflombaum)
+Website: [thyrgle](https://github.com/thyrgle)
