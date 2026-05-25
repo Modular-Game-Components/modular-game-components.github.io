@@ -9,4 +9,8 @@ body {
 #projects {
   margin-left: auto;
   margin-right: auto;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
