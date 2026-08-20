@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background -->
+  <rect width="200" height="200" rx="28" fill="#1e2327"/>
+
+  <!-- Connector studs bridging the gaps -->
+  <circle cx="100" cy="70" r="7" fill="#3a4147"/>
+  <circle cx="70" cy="100" r="7" fill="#3a4147"/>
+  <circle cx="130" cy="100" r="7" fill="#3a4147"/>
+  <circle cx="100" cy="130" r="7" fill="#3a4147"/>
+
+  <!-- Modular blocks, flat color, no gradients/strokes for clean small-size rendering -->
+
+  <!-- Top block (plain) -->
+  <rect x="78" y="34" width="44" height="44" rx="10" fill="#5FD3C4"/>
+
+  <!-- Left block (plain) -->
+  <rect x="34" y="78" width="44" height="44" rx="10" fill="#5FD3C4"/>
+
+  <!-- Center block: bold X, single flat opacity -->
+  <rect x="78" y="78" width="44" height="44" rx="10" fill="#F2B84B"/>
+  <g opacity="0.55">
+    <line x1="89" y1="89" x2="111" y2="111" stroke="#1e2327" stroke-width="9" stroke-linecap="round"/>
+    <line x1="111" y1="89" x2="89" y2="111" stroke="#1e2327" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right block (plain) -->
+  <rect x="122" y="78" width="44" height="44" rx="10" fill="#5FD3C4"/>
+
+  <!-- Bottom block (plain) -->
+  <rect x="78" y="122" width="44" height="44" rx="10" fill="#5FD3C4"/>
+</svg>
