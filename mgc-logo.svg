@@ -1,55 +1,270 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <defs>
-    <linearGradient id="teal" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#79E8D9"/>
-      <stop offset="1" stop-color="#4CC2B2"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 477.31259 200"
+   width="477.31259"
+   height="200"
+   version="1.1"
+   id="svg13"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4">
+    <rect
+       x="221.8669"
+       y="26.624027"
+       width="310.61365"
+       height="233.40398"
+       id="rect14" />
+    <linearGradient
+       id="teal"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#79E8D9"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#4CC2B2"
+         id="stop2" />
     </linearGradient>
-    <linearGradient id="amber" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#F7C766"/>
-      <stop offset="1" stop-color="#E8A93A"/>
+    <linearGradient
+       id="amber"
+       x1="77"
+       y1="77"
+       x2="77"
+       y2="123"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#F7C766"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#E8A93A"
+         id="stop4" />
     </linearGradient>
+    <linearGradient
+       xlink:href="#teal"
+       id="linearGradient2"
+       x1="77"
+       y1="33"
+       x2="77"
+       y2="79"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#teal"
+       id="linearGradient3"
+       x1="33"
+       y1="77"
+       x2="33"
+       y2="123"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#teal"
+       id="linearGradient4"
+       x1="121"
+       y1="77"
+       x2="121"
+       y2="123"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#teal"
+       id="linearGradient5"
+       x1="77"
+       y1="121"
+       x2="77"
+       y2="167"
+       gradientUnits="userSpaceOnUse" />
   </defs>
-
   <!-- Background -->
-  <rect width="200" height="200" rx="28" fill="#1e2327"/>
-
+  <rect
+     width="200"
+     height="200"
+     rx="28"
+     fill="#1e2327"
+     id="rect4"
+     x="0"
+     y="0" />
   <!-- Connector studs bridging the gaps (drawn first, sit behind blocks) -->
-  <circle cx="100" cy="70" r="6" fill="#3a4147"/>
-  <circle cx="70" cy="100" r="6" fill="#3a4147"/>
-  <circle cx="130" cy="100" r="6" fill="#3a4147"/>
-  <circle cx="100" cy="130" r="6" fill="#3a4147"/>
-
+  <circle
+     cx="100"
+     cy="70"
+     r="6"
+     fill="#3a4147"
+     id="circle4" />
+  <circle
+     cx="70"
+     cy="100"
+     r="6"
+     fill="#3a4147"
+     id="circle5" />
+  <circle
+     cx="130"
+     cy="100"
+     r="6"
+     fill="#3a4147"
+     id="circle6" />
+  <circle
+     cx="100"
+     cy="130"
+     r="6"
+     fill="#3a4147"
+     id="circle7" />
   <!-- Modular blocks forming a D-pad / gamepad cluster -->
-
   <!-- Top block -->
-  <rect x="78" y="34" width="44" height="44" rx="10" fill="url(#teal)" stroke="#2c3438" stroke-width="2"/>
+  <rect
+     x="78"
+     y="34"
+     width="44"
+     height="44"
+     rx="10"
+     fill="url(#teal)"
+     stroke="#2c3438"
+     stroke-width="2"
+     id="rect7"
+     style="fill:url(#linearGradient2)" />
   <!-- star detail (quality / achievement marker) -->
-  <path d="M100,43 L103.77,50.8 L112.35,51.97 L106.24,57.56 L107.67,66.27 L100,61.85 L92.33,66.27 L93.76,57.56 L87.65,51.97 L96.23,50.8 Z" fill="#1e2327" opacity="0.45"/>
-
+  <path
+     d="m 100,43 3.77,7.8 8.58,1.17 -6.11,5.59 1.43,8.71 -7.67,-4.42 -7.67,4.42 1.43,-8.71 -6.11,-5.59 8.58,-1.17 z"
+     fill="#1e2327"
+     opacity="0.45"
+     id="path7" />
   <!-- Left block -->
-  <rect x="34" y="78" width="44" height="44" rx="10" fill="url(#teal)" stroke="#2c3438" stroke-width="2"/>
+  <rect
+     x="34"
+     y="78"
+     width="44"
+     height="44"
+     rx="10"
+     fill="url(#teal)"
+     stroke="#2c3438"
+     stroke-width="2"
+     id="rect8"
+     style="fill:url(#linearGradient3)" />
   <!-- four-direction arrow cluster (up, right, down, left) -->
-  <path d="M56 86 L61 94 L51 94 Z" fill="#1e2327" opacity="0.45"/>
-  <path d="M56 114 L61 106 L51 106 Z" fill="#1e2327" opacity="0.45"/>
-  <path d="M42 100 L50 95 L50 105 Z" fill="#1e2327" opacity="0.45"/>
-  <path d="M70 100 L62 95 L62 105 Z" fill="#1e2327" opacity="0.45"/>
-
+  <path
+     d="m 56,86 5,8 H 51 Z"
+     fill="#1e2327"
+     opacity="0.45"
+     id="path8" />
+  <path
+     d="m 56,114 5,-8 H 51 Z"
+     fill="#1e2327"
+     opacity="0.45"
+     id="path9" />
+  <path
+     d="m 42,100 8,-5 v 10 z"
+     fill="#1e2327"
+     opacity="0.45"
+     id="path10" />
+  <path
+     d="m 70,100 -8,-5 v 10 z"
+     fill="#1e2327"
+     opacity="0.45"
+     id="path11" />
   <!-- Center block (accent, "core") -->
-  <rect x="78" y="78" width="44" height="44" rx="10" fill="url(#amber)" stroke="#a6741f" stroke-width="2"/>
+  <rect
+     x="78"
+     y="78"
+     width="44"
+     height="44"
+     rx="10"
+     fill="url(#amber)"
+     stroke="#a6741f"
+     stroke-width="2"
+     id="rect11"
+     style="fill:url(#amber)" />
   <!-- X mark: "X marks the spot" / X button, game-themed -->
-  <g opacity="0.45">
-    <line x1="90" y1="90" x2="110" y2="110" stroke="#1e2327" stroke-width="7" stroke-linecap="round"/>
-    <line x1="110" y1="90" x2="90" y2="110" stroke="#1e2327" stroke-width="7" stroke-linecap="round"/>
+  <g
+     opacity="0.45"
+     id="g12">
+    <line
+       x1="90"
+       y1="90"
+       x2="110"
+       y2="110"
+       stroke="#1e2327"
+       stroke-width="7"
+       stroke-linecap="round"
+       id="line11" />
+    <line
+       x1="110"
+       y1="90"
+       x2="90"
+       y2="110"
+       stroke="#1e2327"
+       stroke-width="7"
+       stroke-linecap="round"
+       id="line12" />
   </g>
-
   <!-- Right block -->
-  <rect x="122" y="78" width="44" height="44" rx="10" fill="url(#teal)" stroke="#2c3438" stroke-width="2"/>
+  <rect
+     x="122"
+     y="78"
+     width="44"
+     height="44"
+     rx="10"
+     fill="url(#teal)"
+     stroke="#2c3438"
+     stroke-width="2"
+     id="rect12"
+     style="fill:url(#linearGradient4)" />
   <!-- two small action buttons -->
-  <circle cx="138" cy="92" r="5" fill="#1e2327" opacity="0.45"/>
-  <circle cx="152" cy="106" r="5" fill="#1e2327" opacity="0.45"/>
-
+  <circle
+     cx="138"
+     cy="92"
+     r="5"
+     fill="#1e2327"
+     opacity="0.45"
+     id="circle12" />
+  <circle
+     cx="152"
+     cy="106"
+     r="5"
+     fill="#1e2327"
+     opacity="0.45"
+     id="circle13" />
   <!-- Bottom block -->
-  <rect x="78" y="122" width="44" height="44" rx="10" fill="url(#teal)" stroke="#2c3438" stroke-width="2"/>
+  <rect
+     x="78"
+     y="122"
+     width="44"
+     height="44"
+     rx="10"
+     fill="url(#teal)"
+     stroke="#2c3438"
+     stroke-width="2"
+     id="rect13"
+     style="fill:url(#linearGradient5)" />
   <!-- gem/treasure detail, ties into "X marks the spot" theme -->
-  <path d="M92,138 L108,138 L112,144 L100,156 L88,144 Z" fill="#1e2327" opacity="0.45"/>
+  <path
+     d="m 92,138 h 16 l 4,6 -12,12 -12,-12 z"
+     fill="#1e2327"
+     opacity="0.45"
+     id="path13" />
+  <text
+     xml:space="preserve"
+     id="text13"
+     style="font-size:42.6667px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect14);fill:#659ad2"><tspan
+       x="221.86719"
+       y="65.44637"
+       id="tspan2"><tspan
+         style="fill:#f9f9f9"
+         id="tspan1">Modular
+</tspan></tspan><tspan
+       x="221.86719"
+       y="118.77974"
+       id="tspan4"><tspan
+         style="fill:#f9f9f9"
+         id="tspan3">Game
+</tspan></tspan><tspan
+       x="221.86719"
+       y="172.11312"
+       id="tspan6"><tspan
+         style="fill:#f9f9f9"
+         id="tspan5">Components</tspan></tspan></text>
 </svg>

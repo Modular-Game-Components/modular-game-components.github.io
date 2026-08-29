@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="Cache-Control" content="no-store" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
     <meta property="og:description" content="A collection of micro-libraries that help bridge the gap between game frameworks and game engines.">
     <meta property="og:image" content="mgc-logo.svg">
     <meta property="og:url" content="https://modular-game-components.github.io/">
@@ -16,79 +14,52 @@
     <title>Modular Game Components</title>
   </head>
   <body>
-    <h1 class="heading">Modular Game Components</h1>
-    <h2 class="heading">A collection of "micro"-libraries that help bridge the gap between game frameworks and game engines.</h2>
-    <p class="heading">
-      <a href="https://github.com/Modular-Game-Components">
-        Github Organization</a>&nbsp;
-      <a href="https://www.paypal.com/donate/?business=9ZQ9S6RJBVATY&no_recurring=0&currency_code=USD">
-        Donate</a>
-    </p>
-    <table id="projects">
-      <thead>
-        <tr>
-          <th>Name</th>
-	  <th>Description</th>
-	  <th>Github</th>
-	  <th>Package Manager</th>
-	</tr>
-      </thead>
-      <tbody>
-        <tr>
-	  <td>punyecs</td>
-	  <td>A decorator-based small Entity Component System for Python.
-	  <td>
-            <a href="https://github.com/Modular-Game-Components/punyecs">
-              Github
-	    </a>
-	  </td>
-	  <td>
-            <a href="https://pypi.org/project/punyecs/">PyPI</a>
-	  </td>
-        </tr>
-        <tr>
-          <td>transytion</td>
-	  <td>A tweening/easing library for game animations in Python.</td>
-	  <td>
-            <a href="https://github.com/Modular-Game-Components/transytion">
-              Github
-            </a>
-	  </td>
-	  <td>
-            <a href="https://pypi.org/project/transytion/">PyPI</a>
-	  </td>
-        </tr>
-        <tr>
-	  <td>gtravyl</td>
-	  <td>Grid-based shortest path in Python. Easily find the shortest path in your game world.</td>
-	  <td>
-            <a href="https://github.com/Modular-Game-Components/gtravyl">
-              Github
-	    </a>
-	  </td>
-	  <td><a href="https://pypi.org/project/gtravyl/">PyPI</a></td>
-        </tr>
-        <tr>
-	  <td>lpyout</td>
-	  <td>Grid-based layout engine in Python.</td>
-	  <td>
-            <a href="https://github.com/Modular-Game-Components/lpyout">
-              Github
-	    </a>
-	  </td>
-	  <td><a href="https://pypi.org/project/lpyout/">PyPI</a></td>
-        </tr>
-	<tr>
-          <td>ease-caml</td>
-	  <td>Easing/tweening library for OCaml.</td>
-	  <td>
-            <a href="https://github.com/Modular-Game-Components/ease-caml">
-              Github
-            </a>
-	  </td>
-	  <td><a href="https://opam.ocaml.org/packages/ease-caml/ease-caml.0.1.5/">opam</a></td>
-	</tr>
-      </thead>
-    </table>
+    <main>
+      <img id="logo" src="mgc-logo.svg" alt="Modular Game Components"/>
+      <p id="mission">A collection of "micro"-libraries that help bridge the gap between game frameworks and game engines.</p>
+      <h2 id="projects">Projects</h2>
+
+      <ul class="project-list">
+        <li class="project-card">
+          <a class="project-link" href="https://github.com/Modular-Game-Components/punyecs">
+            <img class="project-image" src="punyecs-logo.svg" alt="punyecs"/>
+            <h3 class="project-name">punyecs</h3>
+            <p class="project">An ECS framework based on attributes and SQL-esque queries.</p>
+          </a>
+        </li>
+
+        <li class="project-card">
+          <a class="project-link" href="https://github.com/Modular-Game-Components/transytion">
+            <img class="project-image" src="transytion-logo.svg" alt="transytion"/>
+            <h3 class="project-name">transytion</h3>
+            <p class="project">An easing library for games.</p>
+          </a>
+        </li>
+
+        <li class="project-card">
+          <a class="project-link" href="https://github.com/Modular-Game-Components/gtravyl">
+            <img class="project-image" src="gtravyl-logo.svg" alt="gtravyl"/>
+            <h3 class="project-name">gtravyl</h3>
+            <p class="project">A grid-based shortest path library.</p>
+          </a>
+        </li>
+
+        <li class="project-card">
+          <a class="project-link" href="https://github.com/Modular-Game-Components/lpyout">
+            <img class="project-image" src="lpyout-logo.svg" alt="lpyout"/>
+            <h3 class="project-name">lpyout</h3>
+            <p class="project">A layout framework.</p>
+          </a>
+        </li>
+
+        <li class="project-card">
+          <a class="project-link" href="https://github.com/Modular-Game-Components/ease-caml">
+            <img class="project-image" src="ease-caml-logo.svg" alt="ease-caml"/>
+            <h3 class="project-name">ease-caml</h3>
+            <p class="project">An easing library for games.</p>
+          </a>
+        </li>
+      </ul>
+    </main>
   </body>
 </html>
